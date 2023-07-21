@@ -3,15 +3,18 @@
 <head>
     <title>App Prototype</title>
     <style>
-        button {
+        button {          
           width: 70px;
-          height: 50px;
-          margin-top: 10px;
+          height: 70px;
+          margin-top: 50px;
           margin-left: -334px;
+          position: absolute;
+          top: 700px;
+          left: 430px;
           border: none;
-          border-radius: 0px;
+          border-radius: 30px;
           outline: none;
-          background-color: rgb(255, 255, 255);
+          background-color: rgba(0, 0, 0, 0);
           box-shadow: none;
         }
     </style>
@@ -21,9 +24,9 @@
 
     <div id="home">
         <img src="home.png" width="414px" height="830px" alt="home" />
-        <button type="button">
-            <img src="lookbt.png" alt="lookbt" onclick="location.href='2.look.html'">
-          </button>
+        <div class="button">
+            <button type="submit" onclick="location.href='2.look.html'"></button>
+        </div>
       </div>
 
 </body>
